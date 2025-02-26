@@ -17,7 +17,7 @@ class SignUpFormView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final controller = Get.put(SignUpController());
+    final controller = Get.find<SignUpController>();
     return SafeArea(
       child: Scaffold(
         body: SingleChildScrollView(
@@ -59,6 +59,7 @@ class SignUpFormView extends StatelessWidget {
                   const SizedBox(height: HSizes.spaceBtwInputFields16),
                   // Email Field
                   HTextField(
+                    readOnly: true,
                     type: TextFieldType.email,
                     focusNode: controller.emailFocusNode,
                     controller: controller.emailController,
