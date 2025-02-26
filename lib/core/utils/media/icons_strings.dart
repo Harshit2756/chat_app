@@ -32,30 +32,6 @@ class HIcons {
   static const IconData monthly = Iconsax.calendar_bold;
   static const IconData today = Iconsax.calendar_1_bold;
 
-  // -- Sidebar Icons
-  static const IconData dashboardSidebar = Iconsax.home_2_outline;
-  static const IconData visitorSidebar = Iconsax.user_tag_outline;
-  static const IconData reportsSidebar = Iconsax.document_text_1_outline;
-  static const IconData admin = Iconsax.user_tag_outline;
-  static const IconData plantSidebar = Iconsax.building_outline;
-  static const IconData membersSidebar = Iconsax.user_octagon_outline;
-
-  // -- Dashboard Icons
-  static const IconData dashboard = Iconsax.home_2_bold;
-  static const IconData account = Iconsax.profile_circle_bold;
-  static const IconData labour = Iconsax.profile_2user_bold;
-  static const IconData contractor = Iconsax.building_bold;
-  static const IconData manager = Iconsax.personalcard_bold;
-  static const IconData visitor = Iconsax.user_tag_bold;
-  static const IconData employee = Iconsax.user_octagon_bold;
-  static const IconData reports = Iconsax.document_text_1_bold;
-  static const IconData attendance = Iconsax.calendar_2_bold;
-  static const IconData takeAttendance = Iconsax.calendar_tick_bold;
-  static const IconData accessManagement = Iconsax.lock_1_bold;
-  static const IconData approved = Iconsax.tick_circle_bold;
-  static const IconData pending = Iconsax.document_bold;
-  static const IconData reject = Iconsax.close_circle_bold;
-
   // -- Navigation Icons
   static const IconData back = Iconsax.arrow_left_3_bold;
   static const IconData next = Iconsax.arrow_right_2_bold;
@@ -76,13 +52,6 @@ class HIcons {
   static const IconData filter = Iconsax.filter_square_bold;
   static const IconData expande = Iconsax.arrow_down_bold;
   static const IconData collapse = Iconsax.arrow_up_1_bold;
-
-  // -- Attendance Icons
-  static const IconData scanFace = Icons.face_retouching_natural;
-  static const IconData id = Iconsax.personalcard_bold;
-  static const IconData inTime = Iconsax.timer_pause_bold;
-  static const IconData outTime = Iconsax.timer_start_bold;
-  static const IconData workingHours = Iconsax.brifecase_timer_bold;
 
   // -- Profile Icons
   static const IconData address = Icons.home;

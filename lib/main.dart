@@ -23,7 +23,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Attendance App',
+      title: 'CHat App',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
       theme: HAppTheme.lightTheme,
