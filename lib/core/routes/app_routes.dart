@@ -16,7 +16,6 @@ library;
 
 import 'package:chat_app/app/modules/auth/view/signup_google.dart';
 import 'package:chat_app/app/modules/auth/view/splash_view.dart';
-import 'package:chat_app/core/widgets/error/access_denied_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -35,9 +34,6 @@ class HAppRoutes {
     GetPage(name: HRoutesName.signUp, page: () => const SignUpGoogleView()),
     GetPage(name: HRoutesName.signUpForm, page: () => const SignUpFormView()),
     GetPage(name: HRoutesName.chatView, page: () => const ChatView()),
-
-    // Access Denied Route
-    GetPage(name: HRoutesName.accessDenied, page: () => const AccessDeniedView()),
 
     // Default route for undefined routes
     GetPage(
